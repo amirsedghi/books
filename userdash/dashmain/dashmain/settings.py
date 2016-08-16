@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'dashmain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'product_catalog',
-        'USER': 'amirsedghi',
+        'NAME': 'books',
+        'USER': 'amir',
         'PASSWORD': '13579',
         'HOST': 'localhost',
         'PORT': '',
